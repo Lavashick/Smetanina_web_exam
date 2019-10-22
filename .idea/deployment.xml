@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Mospolytech">
+        <serverdata>
+          <mappings>
+            <mapping deploy="exam2019" local="$PROJECT_DIR$" web="http://exam2019.std-846.ist.mospolytech.ru/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
