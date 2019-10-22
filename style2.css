@@ -1,0 +1,24 @@
+input[type="radio"] {
+    display: none;
+}
+.card {
+    border: 3px solid gray;
+    border-radius: 10px;
+    flex: 0 0 24%;
+    max-width: 24%;
+}
+@media (max-width:992px) {
+    .card {
+        flex: 0 0 100%;
+        max-width: 300px;
+    }
+}
+@media (max-width: 767px) {
+    .cards {
+        justify-content: center !important;
+    }
+}
+input:checked + .card {
+    transform: scale(1.1);
+    border-color: green;
+}

@@ -2,6 +2,12 @@
     background-color: #383532;
 }
 
+.btn {
+    background-color: #383532;
+    color: white;
+    border: 0;
+}
+
 .logo-png {
     width: 160px;
     margin: 10px 50px;
@@ -73,4 +79,55 @@ button {
 .cards-content {
     background-color: #383532;
     padding-bottom: 20px;
+}
+
+.news {
+    background-color: #383532;
+}
+
+.news .col-5 {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.news .col-5 {
+    border-radius: 9px;
+}
+
+.card {
+    height: 420px;
+}
+
+
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.cards {
+    padding: 0 2%;
+}
+
+.cards .card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    flex: 0 0 24%;
+    max-width: 24%;
+    background-color: #383532;
+}
+@media (max-width:992px) {
+    .cards .card {
+        flex: 0 0 100%;
+        max-width: 300px;
+    }
+}
+@media (max-width: 767px) {
+    .cards {
+        justify-content: center !important;
+    }
+}
+input:checked + .card {
+    transform: scale(1.1);
+    border-color: green;
 }
