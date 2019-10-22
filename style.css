@@ -1,0 +1,65 @@
+.main-nav {
+    background-color: #383532;
+}
+
+.logo-png {
+    width: 160px;
+    margin: 10px 50px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.main-logo {
+    width: 150px;
+}
+
+.sign-in, .sign-up {
+    padding: 0 10px;
+}
+
+.form-block {
+    border: 2px solid darkgray;
+}
+
+.input-block {
+    border: 1px solid darkgray;
+    padding: 0;
+}
+
+.col-5 {
+    padding: 0;
+}
+
+.input-space {
+    border: none;
+}
+
+button {
+    padding: 5px;
+}
+
+.col-pd {
+    padding: 0;
+}
+
+.nav-nav {
+    padding: 20px;
+}
+
+.nav-bar-bar li a {
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-bar-bar {
+    width: 80%;
+}
+
+.main-bar {
+    background-color: white;
+    color: #383532;
+}
+
