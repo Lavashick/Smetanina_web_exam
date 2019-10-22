@@ -45,16 +45,12 @@ button {
     padding: 0;
 }
 
-.nav-nav {
+.main-bar {
+
     padding: 20px;
 }
 
-.nav-bar-bar li a {
-    padding: 10px 20px;
-    color: white;
-}
-
-.nav-bar-bar {
+.links-in-bar {
     width: 80%;
 }
 
@@ -63,3 +59,17 @@ button {
     color: #383532;
 }
 
+.bar-2 {
+    background-color: #383532;
+    color: white;
+    padding: 20px 0;
+}
+
+.dropdown .btn {
+    background-color: white;
+    border: 0;
+}
+
+.cards-content {
+    background-color: #383532;
+}
